@@ -105,7 +105,7 @@ def time_stats(df):
     print(df['month'].mode()[0])
 
     # TO DO: display the most common day of week
-    print('With the selected filter this is the most common Day of Travel:')
+    print('The most common Day of Travel:')
     print(df['day_of_week'].mode()[0])
 
     # TO DO: display the most common start hour
