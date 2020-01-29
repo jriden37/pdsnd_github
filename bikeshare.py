@@ -53,7 +53,7 @@ def get_filters():
             break
 
     print('-'*40)
-    return city.lower(), month.lower(), day.lower()
+    return city, month, day
 
 
 def load_data(city, month, day):
